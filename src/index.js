@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SendId from "./components/useContext/useContext";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      {/*<GetNewVal>*/}
+      <SendId>
+          <App/>
+      </SendId>
+      {/*</GetNewVal>*/}
   </React.StrictMode>,
   document.getElementById('root')
 );

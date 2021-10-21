@@ -1,0 +1,21 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    max-width: 170px;
+}
+.componentsBtn{
+    padding: 15px 25px;
+    margin-top: 5px;
+    background: linear-gradient(45deg, red, blue);
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.componentsBtn:hover{
+    background: linear-gradient(45deg, blue , red);
+    transition: .5s;
+}
